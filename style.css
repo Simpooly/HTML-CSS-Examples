@@ -1,0 +1,95 @@
+/*General Styles*/
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   outline: none;
+}
+.center { margin: 0 auto; }
+.d-flex { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    align-content: center; 
+}
+.page-wrap .text-center{
+    text-align: center;
+}
+.page-wrap{
+    width: 100%;
+    background-color: #ccc;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.page-wrap a{
+text-decoration: none;
+}
+.page-wrap section{
+    margin-top: 60px;
+}
+.page-wrap h2{
+    font-size: 45px;
+    text-decoration: underline;
+}
+.page-wrap .responsive-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Gradient Styles*/
+.page .gradient-text{
+    font-size: 150px; 
+    line-height: 150px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #da1b60 linear-gradient(-130deg, #ff8a00 20%, #da1b60 58%, #ff8a00 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Scroll Style*/
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+    .page .gradient-text{
+        font-size: 20vw; 
+        line-height: 20vw;
+    }
+}
+
+@media (min-width: 481px) {
+    .page .gradient-text{
+        font-size: 90px; 
+        line-height: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+ 
+}
+
+@media (min-width: 960px) {
+    .page .gradient-text{
+        font-size: 150px; 
+        line-height: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-wrap{
+     max-width: 1350px;
+    }
+}
