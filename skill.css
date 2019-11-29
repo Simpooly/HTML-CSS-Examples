@@ -29,7 +29,7 @@
 }
 .SkillBar {
     width: 90%;
-    height: 50px;
+    height: 10px;
     position: relative;
     background: rgba(17, 17, 17, .3);
     margin: 20px auto;
@@ -40,9 +40,9 @@
     -webkit-animation: Animate-HTML 4s;
     -moz-animation: Animate-HTML 4s;
     -o-animation: Animate-HTML 4s;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #ea8564;
+    background-color:  #ff8a00;
 }
 @keyframes Animate-HTML {
     from {
@@ -74,9 +74,9 @@ to {
     -moz-animation: Animate-CSS 5s;
     -o-animation: Animate-CSS 5s;
     width: 70%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #55a69f;
+    background-color: #ff8a00;
 }
 @keyframes Animate-CSS {
     from {
@@ -108,9 +108,9 @@ to {
     -moz-animation: Animate-jQuery 5s;
     -o-animation: Animate-jQuery 5s;
     width: 40%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #99856d;
+    background-color: #ff8a00;
 }
 @keyframes Animate-jQuery {
     from {
@@ -142,9 +142,9 @@ to {
     -moz-animation: Animate-JS 4s;
     -o-animation: Animate-JS 4s;
     width: 65%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #c44e45;
+    background-color: #ff8a00;
 }
 @keyframes Animate-JS {
     from {
@@ -176,9 +176,9 @@ to {
     -moz-animation: Animate-XML 4s;
     -o-animation: Animate-XML 4s;
     width: 40%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #5aa669;
+    background-color: #ff8a00;
 }
 @keyframes Animate-XML {
     from {
@@ -210,9 +210,9 @@ to {
     -moz-animation: Animate-C 4s;
     -o-animation: Animate-C 4s;
     width: 30%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #970cc1;
+    background-color: #ff8a00;
 }
 @keyframes Animate-C {
     from {
@@ -244,9 +244,9 @@ to {
     -moz-animation: Animate-JAVA 4s;
     -o-animation: Animate-JAVA 4s;
     width: 25%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #8e930c;
+    background-color: #ff8a00;
 }
 @keyframes Animate-JAVA {
     from {
@@ -278,9 +278,9 @@ to {
     -moz-animation: Animate-PHP 4s;
     -o-animation: Animate-PHP 4s;
     width: 50%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #5A69A6;
+    background-color: #ff8a00;
 }
 @keyframes Animate-PHP {
     from {
@@ -312,9 +312,9 @@ to {
     -moz-animation: Animate-SQL 4s;
     -o-animation: Animate-SQL 4s;
     width: 80%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #23b1db;
+    background-color: #ff8a00;
 }
 @keyframes Animate-SQL {
     from {
@@ -346,9 +346,9 @@ to {
     -moz-animation: Animate-VBNET 4s;
     -o-animation: Animate-VBNET 4s;
     width: 35%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #f8a51e;
+    background-color: #ff8a00;
 }
 @keyframes Animate-VBNET {
     from {
