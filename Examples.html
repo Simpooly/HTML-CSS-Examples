@@ -15,17 +15,27 @@
     <link rel="stylesheet" type="text/css" href="timeline.css">
     <link rel="stylesheet" type="text/css" href="skill.css">
     <title>HTML|CSS</title>
-<!--     <style type="text/css">
-        .page .gradient-text{
-            font-size: 33vw; 
-            line-height: 33vw;
-            background: #da1b60 linear-gradient(-130deg, #ff8a00 20%, #da1b60 58%, #ff8a00 98%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+    
+ <style type="text/css">
+          #header {
+          background-color: #f1f1f1;
+          padding: 50px 10px;
+          color: black;
+          text-align: center;
+          font-size: 30px; 
+          font-weight: bold;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          transition: 0.2s;
+          z-index: 1000;
         }
-    </style> -->
+       
+    </style>
 </head>
 <body>
+    <div id="header">Header</div>
+
     <div class="page d-flex">
         <div class="page-wrap d-flex flex-column text-center">
 
@@ -304,7 +314,18 @@
 </body>
 </html>
 
+<script>
+    // When the user scrolls down 50px from the top of the document, resize the header's font size
+    window.onscroll = function() {scrollFunction()};
 
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style.fontSize = "18px";
+      } else {
+        document.getElementById("header").style.fontSize = "30px";
+      }
+    }
+        </script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
