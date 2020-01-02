@@ -1,4 +1,4 @@
-/*General Styles*/
+/* || General Styles */
 * {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -39,7 +39,7 @@ text-decoration: none;
     display: block;
 }
 
-/*Gradient Styles*/
+/* || Gradient Styles */
 .page .gradient-text{
     font-size: 150px; 
     line-height: 150px;
@@ -50,13 +50,48 @@ text-decoration: none;
     -webkit-text-fill-color: transparent;
 }
 
-/*Scroll Style*/
-.come-in {
-  transform: translateY(150px);
-  animation: come-in 0.8s ease forwards;
+/* || Paralax Scroll Style */
+.page .top{
+    width: 100%;
+    background: url('https://images.squarespace-cdn.com/content/v1/50631261e4b0e9530e2c53a7/1451720880611-ZB4W8H2V1WGZQS8JN8UZ/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/Candid-Black-and-White-Photography.jpg') no-repeat center;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
 }
-.come-in:nth-child(odd) {
-  animation-duration: 0.6s; /* So they look staggered */
+.page .top h3{
+    /*background-color: white;*/
+    /*color: black;*/
+    color: #da1b60;
+    font-size: 70px;
+    line-height: 100px;
+    /*mix-blend-mode: screen;*/
+    font-weight: 900;
+    position: absolute;
+    padding: 25px;
+}
+.page .middle{
+    width: 100%;
+    background-color: #ccc;
+    height: 250px;
+}
+.page .middle p{
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 960px;
+    /*background: #ccc;*/
+    /*width: 275px;*/
+}
+.page .bottom{
+    width: 100%;
+    background: url('https://previews.123rf.com/images/carloscastilla/carloscastilla1303/carloscastilla130300017/18586168-3d-image-of-abstract-black-and-white-ballons.jpg')  no-repeat center;
+    height:350px;
+    background-attachment: fixed;
+}
+.page .bottom h3{
+    font-size: 100px;
+    line-height: 100px;
+    color: #da1b60;
+    font-weight: 900;
 }
 
 @keyframes come-in {
